@@ -4,11 +4,11 @@ This project is a **Machine Learning Web Application** that predicts house price
 
 ---
 
-## 🔍 Features
+## Features
 
 - Predict house prices using:
-  - ✅ Linear Regression
-  - ✅ Random Forest Regression
+  -  Linear Regression
+  -  Random Forest Regression
 - Input fields:
   - Bedrooms
   - Bathrooms
@@ -23,7 +23,7 @@ This project is a **Machine Learning Web Application** that predicts house price
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 - `house.pkl` → Trained Linear Regression model
 - `house_rf.pkl` → Trained Random Forest Regression model
