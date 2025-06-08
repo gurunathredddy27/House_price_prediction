@@ -70,7 +70,7 @@ def predict():
     prediction = model.predict(df)[0]
     prediction1 = rf_model.predict(df)[0]
     
-
+# used both the random forest and linear regression
     return render_template('index.html', cities=cities, countries=countries,
                        linear_pred=f"Linear Regression House Price: ${prediction:,.2f}",
                        rf_pred=f"Random forest House Price: ${prediction1:,.2f}")
